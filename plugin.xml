@@ -25,9 +25,9 @@
     <preference name="FACEBOOK_AUTO_LOG_APP_EVENTS" default="true" />
     <preference name="FACEBOOK_HYBRID_APP_EVENTS" default="false" />
     <preference name="FACEBOOK_ADVERTISER_ID_COLLECTION" default="true" />
-    <preference name="FACEBOOK_ANDROID_SDK_VERSION" default="12.0.0"/>
-    <preference name="FACEBOOK_IOS_SDK_VERSION" default="11.1.0"/>
-    <preference name="FACEBOOK_BROWSER_SDK_VERSION" default="v12.0" />
+    <preference name="FACEBOOK_ANDROID_SDK_VERSION" default="14.1.1"/>
+    <preference name="FACEBOOK_IOS_SDK_VERSION" default="14.1.0"/>
+    <preference name="FACEBOOK_BROWSER_SDK_VERSION" default="v14.0" />
 
     <engines>
         <engine name="cordova-android" version=">=9.0.0" />
@@ -199,6 +199,7 @@
                 <pod name="FBSDKCoreKit" spec="$FACEBOOK_IOS_SDK_VERSION"/>
                 <pod name="FBSDKLoginKit" spec="$FACEBOOK_IOS_SDK_VERSION"/>
                 <pod name="FBSDKShareKit" spec="$FACEBOOK_IOS_SDK_VERSION"/>
+                <pod name="FBSDKGamingServicesKit" spec="$FACEBOOK_IOS_SDK_VERSION"/>
             </pods>
         </podspec>
 

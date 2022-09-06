@@ -13,6 +13,7 @@
 #import <FBSDKCoreKit/FBSDKCoreKit.h>
 #import <FBSDKLoginKit/FBSDKLoginKit.h>
 #import <FBSDKShareKit/FBSDKShareKit.h>
+#import <FBSDKGamingServicesKit/FBSDKGamingServicesKit-Swift.h>
 #import <Cordova/CDV.h>
 #import "AppDelegate.h"
 
